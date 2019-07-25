@@ -1,0 +1,193 @@
+body {
+	width: 1500px;
+	margin: 0 auto;
+}
+
+
+h1 {
+	font-family: 'Amiko', serif;
+	color: black;
+	margin-top: 60px;
+	font-size: 33px;
+	font-weight: lighter;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+#wholeDate {
+	font-family: 'Amiko', sans-serif;
+	color: black;
+	font-size: 12.5px;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+	margin-bottom: 40px;
+}
+
+#header {
+	text-align: center;
+}
+
+#inputs {
+	display: block;
+	text-align: center;
+	margin: 20px;
+	margin-bottom: 30px;
+}
+
+#projInput {
+	width: 320px;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+#advInput {
+	width: 150px;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+#manInput {
+	padding: 5px;
+	margin-right: 10px;
+}
+
+#button {
+	margin-right: 5px;
+	background-color: white;
+	outline: none;
+	font-family: 'Amiko', sans-serif;
+	font-size: 12.5px;
+	text-transform: uppercase;
+	border: none;
+	color: #95D4E8;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 7px;
+	border-radius: 25px;
+}
+
+#clearButton {
+	background-color: white;
+	outline: none;
+	font-family: 'Amiko', sans-serif;
+	font-size: 12.5px;
+	text-transform: uppercase;
+	border: none;
+	color: #C2CDFF;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 7px;
+	border-radius: 25px;
+}
+
+#resetButton {
+	background-color: white;
+	outline: none;
+	font-family: 'Amiko', sans-serif;
+	font-size: 12.5px;
+	text-transform: uppercase;
+	border: none;
+	color: #C6CCC7;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 7px;
+	border-radius: 25px;
+}
+
+#exportButton {
+	background-color: white;
+	outline: none;
+	font-family: 'Amiko', sans-serif;
+	font-size: 12.5px;
+	text-transform: uppercase;
+	border: none;
+	color: #a1d490;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 7px;
+	border-radius: 25px;
+}
+
+table, th, td {
+	
+}
+
+
+table {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+th {
+	text-align: left;
+	padding: 5px 10px;
+	background-color: #292929;
+	color: white;
+}
+
+.projColumn, .advColumn, .manColumn {
+	padding: 5px 10px;
+	font-family: 'Amiko', sans-serif;
+	font-size: 12.5px;
+}
+
+tr {
+	color: black;
+}
+
+.manColumn {
+	text-align: center;
+	width: 100px;
+}
+
+.projColumn {
+	width: 800px;
+}
+
+.advColumn {
+	width: 350px
+}
+
+#pm {
+	text-align: center;
+}
+
+.statusColumn {
+	background-color: white;
+	width: 50px;
+}
+
+.arrow {
+	width: 22px;
+	height: 22px;
+	margin-left: 7px;
+	opacity: 0.12;
+	cursor: pointer;
+}
+
+.check {
+	width: 22px;
+	height: 22px;
+	opacity: 0.12;
+	cursor: pointer;
+}
+
+.x {
+	width: 18px;
+	height: 18px;
+	opacity: 0.2;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.opacity {
+	opacity: 1;
+}
+
+.opacity1 {
+	opacity: 1;
+}
+
+.x:hover, .check:hover, .arrow:hover {
+	opacity: 1;
+}

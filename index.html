@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Work List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Arapey|Playfair+Display|Unna|Amiko|Amiri|Heebo:800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta charset="UTF-8">
+</head>
+<body>
+	<header id="header">
+		<h1 class="title">Work List</h1>
+		<p id="wholeDate" class="smallLetters"><span id="date"></span></p>
+	</header>
+	<div id="inputs">
+		<input type="text" placeholder="Project Name" id="projInput">
+		<input type="text" placeholder="Advisor Name" id="advInput">
+		<select name="Project Manager" id="manInput">
+			<option value="Justin">Justin</option>
+			<option value="Tyler">Tyler</option>
+			<option value="Ellie">Ellie</option>
+			<option value="Jerry">Jerry</option>
+			<option value="Taylor">Taylor</option>
+			<option value="Alyssa">Alyssa</option>
+			<option value="Ani">Ani</option>
+			<option value="Hunt">Hunt</option>
+		</select>
+		<button id="button">Add to List</button>
+		<button id="clearButton">Clear Completed</button>
+		<button id="resetButton">Reset</button>
+		<button id="exportButton">Export</button>
+	</div>
+	<table id="listcontainer">
+		<tr>
+			<th class="statusColumn"></th>
+			<th class="projColumn">PROJECT</th>
+			<th class="advColumn">ADVISOR</th>
+			<th class="manColumn" id="pm">PM</th>
+			<th class="statusColumn"></th>
+		</tr>
+	</table>
+	<script src="script.js"></script> 
+</body>
+</html>
